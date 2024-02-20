@@ -1,0 +1,602 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.hide {
+  display: none;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo-btn {
+  color: rgb(3, 7, 18);
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.logo-mid {
+  color: rgba(3, 7, 18, 0.7);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.logo-side-btn {
+  box-sizing: border-box;
+  border: 1px solid rgba(29, 209, 0, 0.4);
+  border-radius: 12px;
+  background: rgba(29, 209, 0, 0.1);
+  color: rgb(29, 209, 0);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.hero-img {
+  background: url(images/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+
+.banner-text > h1 {
+  font-family: Raleway;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 86px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.banner-text > button {
+  margin-top: 10px;
+  border-radius: 12px;
+  background: rgb(29, 209, 0);
+  height: 65px;
+  width: 170px;
+  padding: 21px 30px 21px 30px;
+  color: rgb(3, 7, 18);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+}
+
+.card-bg {
+  box-sizing: border-box;
+  border-bottom: 3px solid rgb(29, 209, 0);
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  width: 308px;
+  height: 138px;
+}
+
+.card-info > h1 {
+  color: rgb(3, 7, 18);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+}
+
+.card-info > p {
+  color: rgba(3, 7, 18, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+
+.offer > h1 {
+  color: rgb(3, 7, 18);
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.coupon {
+  background-color: #f78c9c;
+  width: 573px;
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.coupon2 {
+  background-color: #ffbf0f;
+  width: 573px;
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.middle > img {
+  width: 48px;
+  height: 220px;
+}
+
+.right-coupon-text {
+  flex-grow: 2;
+  margin-left: 50px;
+}
+
+.right-coupon-text > h1,
+.left-coupon-text > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+
+.right-coupon-text > h2,
+.left-coupon-text > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+
+.left-coupon-text {
+  flex-grow: 2;
+  margin-left: 20px;
+}
+
+.offer-btn {
+  border: 1px solid rgb(29, 209, 0);
+  border-radius: 12px;
+  padding: 21px 30px 21px 30px;
+  color: rgb(29, 209, 0);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.paribahan {
+  box-sizing: border-box;
+  border-top: 2px solid rgb(29, 209, 0);
+  border-radius: 88px 88px 0px 0px;
+  background: rgb(241 241 241);
+  padding-bottom: 100px;
+}
+
+.p-header > h1 {
+  color: rgb(3, 7, 18);
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.p-header > p {
+  color: rgba(3, 7, 18, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.car-card {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  max-width: 1170px;
+}
+
+.card-top-right {
+  border-radius: 12px;
+  background: rgba(29, 209, 0, 0.15);
+  width: 180px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-top-right > p {
+  color: rgb(29, 209, 0);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+
+.card-top-left > img {
+  width: 68.57px;
+  height: 48px;
+}
+
+.car-info > h1 {
+  margin-bottom: 3px;
+  color: rgb(3, 7, 18);
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0px;
+}
+
+.car-info > p {
+  color: rgba(3, 7, 18, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+
+.card-destination {
+  border-radius: 24px;
+  background: rgb(247, 248, 248);
+  padding: 1rem 2rem;
+}
+
+.card-destination-info,
+.card-destination-btn {
+  padding: 1.5rem 0;
+}
+
+.card-destination-info > p {
+  color: rgba(3, 7, 18, 0.6);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card-destination-btn > button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  width: 199px;
+  height: 60px;
+  border-radius: 12px;
+  background: rgba(3, 7, 18, 0.05);
+  padding: 4px;
+}
+
+.card-hr {
+  border: 1px dashed rgba(3, 7, 18, 0.2);
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.card-right > h1 {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.card-right > p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.card-right {
+  flex-grow: 1;
+}
+
+.card-left {
+  flex-grow: 2;
+}
+
+.p-footer {
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 24px;
+  max-width: 1170px;
+}
+
+.theatre > h1,
+.contact > h1 {
+  color: rgb(3, 7, 18);
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+}
+
+.right-legend,
+.left-legend {
+  gap: 1rem;
+}
+
+.right-legend > p {
+  color: rgba(3, 7, 18, 0.5);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.left-legend > p {
+  color: rgb(29, 209, 0);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.driver {
+  width: 110px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(3, 7, 18, 0.1);
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+.theatre-mid {
+  border: 2px dashed rgba(3, 7, 18, 0.3);
+  height: auto;
+}
+
+.seat-row {
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.seat-right,
+.seat-left {
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.seat-right > button,
+.seat-left > button {
+  border-radius: 12px;
+  background: rgb(247, 248, 248);
+  width: 110px;
+  height: 56px;
+}
+
+.seat-right > button:hover,
+.seat-left > button:hover {
+  background-color: #d8d8d8;
+}
+
+.label-text {
+  color: rgb(3, 7, 18);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.contact-btn {
+  border-radius: 16px;
+  background: rgb(29, 209, 0);
+  width: 100%;
+  color: white;
+}
+
+.contact {
+  padding: 2rem 1rem;
+}
+
+.cost {
+  border-radius: 12px;
+  background: rgb(247, 248, 248);
+  width: 433px;
+  height: auto;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.ticket-seat-header > p,
+.ticket-seat-footer > p {
+  color: rgb(3, 7, 18);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.ticket-seat-info > p {
+  color: rgba(3, 7, 18, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.code-coupon > button {
+  border-radius: 8px;
+  background: rgb(29, 209, 0);
+  color: white;
+}
+
+.ticket-seat-header,
+.ticket-seat-info,
+.ticket-seat-footer,
+.code-coupon,
+.total {
+  margin: 1rem 0;
+}
+
+.total > h1 {
+  color: rgb(3, 7, 18);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.upper-text > h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.upper-text > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.upper-play {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.upper-play > h6 {
+  color: white;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.footer {
+  background: rgb(3, 7, 18);
+  padding: 5rem 4rem;
+  display: block;
+}
+
+.upper-play > img {
+  width: 189px;
+  height: 80px;
+}
+
+.bottom-text > p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.toc > p {
+  text-decoration: underline;
+}
+
+.bottom-toc > p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card-footer {
+  border: 1.5px dashed rgba(255, 255, 255, 0.3);
+}
+
+.icn {
+  font-size: 90px;
+  color: rgb(29, 209, 0);
+}
+
+.modal-box {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modal-box > h3 {
+  color: rgb(29, 209, 0);
+  font-weight: 700;
+}
+
+.modal-btn {
+  border-radius: 8px;
+  background: rgb(29, 209, 0);
+  color: white;
+  width: 10rem;
+}
+
+.modal-action {
+  justify-content: center;
+}
+
+.modal-col {
+  color: rgb(74, 74, 74);
+  font-weight: 700;
+}
+
+.selected {
+  background-color: rgb(29, 209, 0) !important;
+  color: white;
+}

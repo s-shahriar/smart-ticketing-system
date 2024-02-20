@@ -1,0 +1,233 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .logo-btn {
+    color: rgb(3, 7, 18);
+    font-family: Raleway;
+    font-size: 22px;
+    padding: 0;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .hero-img {
+    background-position: top 0% right 20%;
+  }
+
+  .banner-text > h1 {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: unset;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .banner-text > button {
+    margin-top: 50px;
+  }
+
+  .offer-coupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .coupon,
+  .coupon2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-coupon-text {
+    flex-grow: 2;
+    margin-left: 40px;
+  }
+
+  .right-coupon-text > h1,
+  .left-coupon-text > h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+    line-height: 24px;
+  }
+
+  .left-coupon-text {
+    flex-grow: 2;
+    margin-right: 30px;
+  }
+
+  .middle > img {
+    width: 48px;
+    height: 236px;
+  }
+
+  .offer > h1 {
+    color: rgb(3, 7, 18);
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .p-header {
+    margin: 0px !important;
+    padding: 2rem 30px;
+  }
+  .car-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-top-left {
+    align-items: flex-start;
+  }
+  .card-top-left > img {
+    width: 30.57px;
+    height: auto;
+    margin: 20px 0;
+  }
+  .car-info > h1 {
+    margin-bottom: 3px;
+    color: rgb(3, 7, 18);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: unset;
+    letter-spacing: 0px;
+  }
+  .car-info > p {
+    color: rgba(3, 7, 18, 0.6);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: unset;
+    letter-spacing: 0px;
+  }
+  .card-top-right {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5px;
+  }
+  .card-top-right > p {
+    color: rgb(29, 209, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .card-destination {
+    border-radius: 24px;
+    background: rgb(247, 248, 248);
+    padding: 1rem 1rem;
+  }
+  .card-destination-btn {
+    gap: 1rem;
+  }
+  .card-destination-btn > button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    width: 199px;
+    height: 60px;
+    border-radius: 12px;
+    background: rgba(3, 7, 18, 0.05);
+    padding: 8px 7px;
+  }
+  .card-right {
+    padding: 2rem;
+  }
+  .card-middle {
+    display: none;
+  }
+
+  .seat-row {
+    gap: 0rem;
+  }
+  .p-footer {
+    display: block !important;
+  }
+  .right-legend,
+  .left-legend {
+    gap: 5px;
+  }
+  .seat-right > button,
+  .seat-left > button {
+    width: 50px;
+    height: 50px;
+  }
+  .cost {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  .footer {
+    background: rgb(3, 7, 18);
+    padding: 3rem 0rem;
+    display: block;
+  }
+  .footer-upper {
+    display: flex;
+    flex-direction: column;
+  }
+  .upper-text > h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .upper-text > p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .upper-play {
+    margin: 45px 0 !important;
+    text-align: left !important;
+    align-items: start !important;
+  }
+  .upper-play > h6 {
+    color: white;
+    font-family: Raleway;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: unset;
+  }
+  .footer-bottom {
+    padding: 2rem 1rem;
+    display: block;
+  }
+
+  .bottom-toc > p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .contact {
+    padding: 2rem 0rem;
+  }
+  .footer-bottom {
+    display: block;
+    padding: 1rem;
+  }
+  .bottom-text {
+    margin: 1rem 0;
+  }
+  .bottom-toc {
+    justify-content: space-between;
+  }
+}
